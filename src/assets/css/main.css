@@ -1,0 +1,154 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+.center {
+  margin: auto;
+  width: 60%;
+
+  padding: 10px;
+}
+.productDetail {
+  padding: 10px;
+  width: 50%;
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 50px;
+  border: 1px solid gray;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: inherit;
+}
+
+.productDetail:focus {
+  border: 1px solid #98adf1;
+}
+.product {
+  padding: 10px;
+  width: 52%;
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 50px;
+  border: 1px solid gray;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: inherit;
+}
+
+.product:focus {
+  border: 1px solid #98adf1;
+}
+
+.searchInput {
+  padding: 20px;
+}
+.searchArea {
+  border: 1px solid gray;
+  width: 50%;
+  padding: 20px;
+  border-radius: 8px;
+  margin-left: 70px;
+}
+.searchArea .items {
+  border-bottom: 1px solid gray;
+  padding: 5px;
+}
+.searchArea .showMore {
+  text-align: center;
+  padding: 5px;
+}
+.searchArea .items .text {
+  font-size: 13px;
+}
+.detailArea {
+  margin-top: 40px;
+  width: 50%;
+  padding: 20px;
+  margin-left: 70px;
+}
+.detailArea .items {
+  border-bottom: 1px solid gray;
+  padding: 5px;
+}
+.detailArea .items .space {
+  padding-top: 25px;
+}
+.detailArea .items .space .text {
+  font-size: 13px;
+}
+.pagination {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.pagination a {
+  color: gray;
+  float: left;
+  padding: 8px 16px;
+  font-size: 12px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.pagination a.active {
+  background-color: #4c63af;
+  color: white;
+  border: 1px solid #4c63af;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+.dropbtn {
+    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  background-color: white;
+  font-weight: bold;
+  color: black;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border-radius: 5px;
+  min-width: 160px;
+border:1px solid gray;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.icon-embed--vertical {
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+  
+  .icon-embed::before {
+    content: "◀▶";  /* Actual icon here: content: "\ea7f";*/
+    font-size: .6em; /* styling */
+  }
